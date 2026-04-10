@@ -1,0 +1,39 @@
+{
+  "name": "opencode-finish",
+  "version": "0.1.0",
+  "description": "Finish the current task with a summary and success status - Custom tool for OpenCode",
+  "type": "module",
+  "main": "./dist/index.js",
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "opencode",
+    "opencode-tool",
+    "ai",
+    "assistant"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/noxgle/tool-finish#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noxgle/tool-finish.git"
+  },
+  "peerDependencies": {
+    "@opencode-ai/plugin": "^1.0.0"
+  },
+  "devDependencies": {
+    "@opencode-ai/plugin": "^1.0.0",
+    "typescript": "^5.7.0"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
