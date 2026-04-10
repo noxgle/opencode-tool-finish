@@ -1,5 +1,5 @@
 {
-  "name": "opencode-finish",
+  "name": "finish",
   "version": "0.1.0",
   "description": "Finish the current task with a summary and success status - Custom tool for OpenCode",
   "type": "module",
@@ -17,10 +17,10 @@
     "assistant"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/noxgle/tool-finish#readme",
+  "homepage": "https://github.com/noxgle/finish#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/noxgle/tool-finish.git"
+    "url": "git+https://github.com/noxgle/finish.git"
   },
   "peerDependencies": {
     "@opencode-ai/plugin": "^1.0.0"

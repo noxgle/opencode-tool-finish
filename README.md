@@ -1,4 +1,4 @@
-# opencode-finish
+# finish
 
 Custom tool for OpenCode that finishes the current task with a summary and success status.
 
@@ -8,7 +8,7 @@ Add to your `opencode.json`:
 
 ```json
 {
-  "plugin": ["opencode-finish"]
+  "plugin": ["finish"]
 }
 ```
 
