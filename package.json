@@ -1,6 +1,6 @@
 {
   "name": "opencode-tool-finish",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Finish the current task with a summary and success status - Custom tool for OpenCode",
   "type": "module",
   "main": "./dist/index.js",
