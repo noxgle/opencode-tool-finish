@@ -1,5 +1,5 @@
 {
-  "name": "finish",
+  "name": "@opencode-ai/finish",
   "version": "0.1.0",
   "description": "Finish the current task with a summary and success status - Custom tool for OpenCode",
   "type": "module",
@@ -17,7 +17,7 @@
     "assistant"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/noxgle/finish#readme",
+  "homepage": "https://github.com/noxgle/finish",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/noxgle/finish.git"
